@@ -1,0 +1,7 @@
+# Test-5-2
+Question-2
+Create a Cryptocurrency Tracking system in ReactJS. For this system, you will be using a freely available API of CoinGecko (https://www.coingecko.com/en/api). You don’t need to register or generate an API key, you can directly go to their documentation (https://www.coingecko.com/en/api/documentation) and start using their API endpoints in your fetch request. Your application is supposed to have 2 screens (pages), the functionality for each screen is defined as follows:
+
+Screen 1 → Allow the users to be able to search for any cryptocurrency. That means, there will be an input field and a search button on this screen which will allow the user to enter any crypto name and click search. Upon clicking the search button, your application will make an API call to the CoinGecko servers (To understand which endpoint to call, you need to read the documentation of CoinGecko). After making the API call, you will get a response from the CoinGecko systems which will contain the list of all the cryptocurrencies that match the search query. You need to show that list in your application. For each of the coin, there should be a button to navigate to the Detail Screen (Screen 2).
+
+Screen 2 → This is the detail screen. This will contain the additional information such as price in various currencies, description paragraph, crypto image, etc. This should display the detailed information for the coin selected from the search screen (Screen 1).
